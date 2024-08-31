@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </span>
+            <a href="#" class="logo">
+                <img src="logo.png" alt="logo">
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+            <button class="login-btn">Sign In/Sign Up</button>
+        </nav>
+    </header>
+
+    <div class="background-text">
+        <h2>Latest Updates on <br>
+            Version 5.0 "Flowers <br>
+            Resplendent on the <br>
+            Sun-Scorched Sojourn"
+        </h2>
+    </div>
+    <div class="more-option-container">
+        <button class="more-option">More</button>
+    </div>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">X</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back!</h2>
+                <p>Please fill up the necessary areas in order to login.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGN IN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <div class="remember-me">
+                            <input type="checkbox" id="rememberMe">
+                            <label for="rememberMe">Remember me</label>
+                        </div>
+                            <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    </div>
+                    <button type="submit">Sign In</button>
+                    <p>Or sign in with:</p>
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn facebook-btn"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-btn google-btn"><i class="fa fa-google"></i></a>
+                        <a href="#" class="social-btn twitter-btn"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account yet?
+                    <a href="#" id="signup-link">Sign up here</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Join Us!</h2>
+                <p>Fill up the required areas to create an account.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGN UP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Create username</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy" required>
+                        <label for="policy">
+                            I agree to the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                    <p>Or sign up with:</p>
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn facebook-btn"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-btn google-btn"><i class="fa fa-google"></i></a>
+                        <a href="#" class="social-btn twitter-btn"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="#" id="login-link">Sign in here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
